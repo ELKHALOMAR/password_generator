@@ -48,9 +48,8 @@ def random_num():
 
 c = 10 ** 20
 o = []
-aa = "4dhs6fhq6s"
 
-# return
+
 def encrypt(random_value):
     sha = hashlib.sha256(random_value.encode()).hexdigest()
     j = int(sha, 16) % c
